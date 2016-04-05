@@ -1,0 +1,242 @@
+body{
+	
+	width: 100%;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+//Header style starts-->
+.header{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.headline{
+	width: 100%;
+	height: 12.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	color: #F8565D;
+	font-family: 'Marck Script', cursive;
+	
+}
+
+h1{
+	font-size: 2.2vw;
+}
+
+.nav_icons_container{
+	width: 100%;
+	height: 7.5;
+	display: flex;
+	border-top:1px solid lightgray;
+	border-bottom:1px solid lightgray;
+	margin-top: 0.2%;
+}
+.navigation{
+	width: 100%;
+	box-sizing: border-box;
+}
+//links-->
+.navlinks{
+	width: 50%;
+	height: 100%;
+	margin-left: 20%;
+}
+.navlinks li {
+	display: inline-block;
+	margin-left: 4%;
+	font-size: 1vw;
+	width: 15%;
+	border-right: 1px solid black;
+}
+.navlinks li:last-child{
+	border-right: none;
+}
+.navlinks li a:hover{
+	color: #F8565D;
+	transition: 0.8s;
+}
+//links end
+.icons{
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+.headpicture{
+	width: 100%;
+	height: 75%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../img/headbike.png);
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 0 40%;
+	color: white;
+	font-family: 'Marck Script', cursive;
+}
+h2{
+	font-size: 2vw;
+}
+h3{
+	font-size: 1.2vw;
+}
+.headpicture div:nth-child(2){
+	margin-top:-8%;
+}
+
+//Main style start
+
+
+#maincontent{
+	width: 100%;
+}
+
+//principles section
+.principles{
+	width: 62.5%;
+	display: flex;
+	margin: 0 auto;
+	height: 500px;
+}
+.principle_left_item{
+	width: 50%;
+	min-width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.principle_left_item_headline{
+	width: 100%;
+	height: 30%;
+	padding-left: 15%;
+}
+.principle_left_item_headline h4{
+	font-size: 1.3vw;
+	color:#F8565D;
+	margin-bottom: 3%;
+}
+
+.inside_item_main{
+	width: 100%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.inside_item{
+	width: 100%;
+	display: flex;
+	height: 33%;
+
+}
+.iconcontainer{
+	width: 10%;
+	display: flex;
+	align-items: center;
+	margin-top: -20%;
+}
+
+.indide_item_right_text{
+	padding-left: 5%;
+}
+.indide_item_right_text h5{
+	font-size: 1vw;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.indide_item_right_text p{
+	font-size: 0.7vw;
+
+}
+.principle_left_item_headline, .indide_item_right_text p{
+	color:gray;
+} 
+
+.principle_right_item{
+	width: 50%;
+}
+.principles_right_item_img_container{
+	width: 100%;
+	max-width: 100%;
+	margin-top: 5%;
+}
+.principles_right_item img{
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+
+}
+
+.principles_right_item p{
+	width: 95%;
+	height: 100%;
+	color: gray;
+	margin: 2% 2% 5% 2%;
+	white-space: normal;
+}
+
+// finally this fucking principles styles ends, damn i feel like i  put a lot of shit in there
+//services begin
+
+.services_headline{
+	text-align: center;
+	margin-top: 4%;
+
+}
+.services_headline h2{
+	font-size: 2vw;
+	color: #F8565D;
+}
+.services_headline{
+	color: gray;
+}
+.services_list{
+	width: 80%;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 3%;
+	display: flex;
+	flex-direction: column;
+}
+.services_list_item{
+	width: 100%;
+	height: 33%;
+	display: flex;
+}
+.services_list_item_svg{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.services_list_item_textblock{
+	width: 60%;
+	height: 100%;
+	padding: 0 2% 2% 2%;
+	overflow: hidden;
+}
+//kostyl
+.services_list_item_textblock h6{
+	font-size: 1em;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.button_container{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

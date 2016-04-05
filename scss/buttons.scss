@@ -1,0 +1,38 @@
+.button_arrow{
+	width: 40%;
+	height: 60px;
+	border:1px solid lightgray;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	cursor: pointer;
+	margin-top: 10%;
+	font-size: 1vw;
+}
+.buttonlink{
+	position: relative;
+	transition:0.5s;
+}
+
+.buttonlink:after{
+	content: '\00BB';
+	position: relative;
+	margin-left: 10px;
+  	opacity: 0;
+  	right: -20px;
+	transition:0.5s;
+	font-size: 1vw;
+	color: #F8565D;
+}
+.button_arrow:hover .buttonlink{
+	margin-right: 10%;
+	transition: 0.5s;
+}
+
+.button_arrow:hover .buttonlink:after{
+	opacity: 1;
+	right: 0;
+}
+.button_arrow:hover{
+	border:none;
+}
