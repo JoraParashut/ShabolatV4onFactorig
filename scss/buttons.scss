@@ -36,3 +36,12 @@
 .button_arrow:hover{
 	border:none;
 }
+//News section buttons
+.news_item_picture_button .button_arrow{
+	width: 100%;
+	height: 100%;
+	margin-top: -5%;
+}
+.news_item_picture_button .buttonlink:after{
+	font-size: 1vw;
+}
